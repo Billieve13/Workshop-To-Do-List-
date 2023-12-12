@@ -1,0 +1,50 @@
+body {
+  background-color: white;
+  font-size: small;
+  text-align: left;
+}
+
+title {
+  font-size: small;
+  text-align: left;
+
+}
+
+h2 {
+  color: black;
+  text-align: left;
+}
+
+h3 {
+  color: black;
+  text-align: left;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.container2 {
+  background-repeat: no-repeat;
+  border-style: center;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 23%;
+  text-align: left;
+}
+
+.container3 {
+  border-style: groove;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 300px;
+  text-align: left;
+}
+
+.content {
+  background-image: url(header2.jpg);
+  background-size: contain;
+  border-style: groove;
+  color: whitesmoke;
+  text-align: center;
+  }
