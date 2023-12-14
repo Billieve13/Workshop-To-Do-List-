@@ -26,3 +26,17 @@ document.querySelectorAll('#buyingTasks .deleteMe').forEach(button => {
     listItem.remove();
   });
 });
+
+function myFunc(event){
+  event.preventDefault();
+
+  var cleaning = document.getElementById("cleaningTasks").value;
+  var buying = document.getElementById("buyingTasks").value;
+
+  localStorage.setItem('Is a cleaning task', cleaning);
+  localStorage.setItem('Is a buying task', buying);
+}
+
+
+
+
